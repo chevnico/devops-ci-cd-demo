@@ -12,3 +12,6 @@ run:
 test:
 	pipenv run pylint *.py
 	# pipenv run pytest ...
+prepare:
+	#installe les dépendance
+	pipenv install
